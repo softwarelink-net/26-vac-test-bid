@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="12" fill="#072849"/>
+  <path d="M12 40c8-18 32-18 40 0" stroke="#36aaf5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 36c6-10 22-10 28 0" stroke="#7cc8fb" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="24" r="6" fill="#0c8ee6"/>
+  <text x="32" y="52" text-anchor="middle" fill="#e2e8f0" font-size="8" font-family="sans-serif">VAC</text>
+</svg>

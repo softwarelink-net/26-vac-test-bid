@@ -1,0 +1,23 @@
+name = "26-vac-test-bid"
+main = "functions/[[path]].js"
+compatibility_date = "2026-08-01"
+
+# Cloudflare Workers static assets (replaces deprecated Workers Sites [site] bucket)
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vac_test_bid_db"
+database_id = "d1-26-vac-test-bid-id"
+
+[[r2_buckets]]
+binding = "ASSETS_BUCKET"
+bucket_name = "26-vac-test-bid-assets"
+
+[vars]
+ENVIRONMENT = "production"
+APP_NAME = "115VAC变频交流发电软件测试平台"
+HOST_DOMAIN = "https://26-vac-test-bid.softwarelink.net"
