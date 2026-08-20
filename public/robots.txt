@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Allow: /tender
+Allow: /compliance
+Allow: /identification
+Allow: /test-bench
+Allow: /waveform
+Allow: /auth/login
+Allow: /auth/ca
+Allow: /audit
+Allow: /admin
+Allow: /sitemap.xml
+Allow: /robots.txt
+Allow: /docs/assets/
+
+# 禁止抓取构建产物哈希资源目录中的无意义深层路径（静态资源仍可通过页面引用）
+Disallow: /*.map$
+
+Sitemap: https://26-vac-test-bid.softwarelink.net/sitemap.xml
